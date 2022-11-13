@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from "styled-components"
 
 const Container= styled.div`
@@ -126,7 +127,9 @@ const Support = () => {
                 <BoxDesc>Becoming a WBFoundation Team  sponsor is a 
                     smart and strategic way to build brand awareness and 
                     strengthen your consumer loyalty</BoxDesc>
+               <Link  to ="/checkout" style={{ color: 'inherit', textDecoration: 'inherit'}}>
                 <Button>Sponsor</Button>
+                </Link>
             </BoxTwo>
 
         </BoxContainer>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Zoom } from 'react-reveal'
 import styled from "styled-components"
 
 const Container= styled.div`
@@ -72,16 +73,26 @@ const Mission = () => {
     <Container>
         <Left>
         <Title>Our Mission is Hope.</Title>
-        <Desc>Giving Hope To The Hopeless.
-            <br />
+       
+        <Desc>
+        <Zoom left cascade>
+          Giving Hope To The Hopeless.
+          </Zoom>
+           
+            <Zoom right cascade>
             Restoring Hope.
-            <br />
+            </Zoom>
+            <Zoom left cascade>
             Building A Nation.
-            <br />
+            </Zoom>
+            <Zoom right cascade>
             Together We Can!
-            <br />
+            </Zoom>
+            <Zoom left cascade>
             At the end of the day, we must go forward with hope and not backward by fear and division.
+            </Zoom>
         </Desc>
+        
         <AboutButton>About Us</AboutButton>
         </Left>
         <Right>
