@@ -11,7 +11,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-  color: #e9b828;
+  color: #ffd166;
   font-size: 35px;
   font-weight: bolder;
   padding-top: 5%;
@@ -37,8 +37,9 @@ const Letter = styled.h1`
   flex: 1;
   font-size: 90px;
   transition: all 0.65s ease;
+  color: #073b4c;
   &:hover {
-    background-color: #dd2477d1;
+    background-color: #ef476f;
     height: 100%;
     transform: scale(1);
   }
@@ -71,6 +72,7 @@ const Message = styled.p`
   justify-content: center;
   padding-top: 2%;
   font-size: 18px;
+  color: #073b4c;
 `;
 
 const Hope = () => {

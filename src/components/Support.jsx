@@ -4,19 +4,20 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 130vh;
-  background-color: white;
+  background-color: #ffffff;
   text-align: center;
+  color: #073b4c;
 `;
 
 const Title = styled.h1`
-  color: #dd2477d1;
+  color: #ef476f;
   padding-top: 5%;
   font-size: 50px;
 `;
 const Desc = styled.p`
   font-size: 18px;
   padding-top: 5%;
-  color: #353537d0;
+  color: #073b4c;
   letter-spacing: 2px;
   line-height: 30px;
 `;

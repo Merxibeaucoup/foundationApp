@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
-  background-color: #04136bf1;
+  background-color: #073b4c;
   color: white;
 `;
 
@@ -61,7 +61,7 @@ const FooterCopyRight = styled.footer`
   font-size: 15px;
   justify-content: center;
   &:hover {
-    color: #e38b06;
+    color: #ffd166;
   }
 `;
 
@@ -99,7 +99,8 @@ const Footer = () => {
       <Right>
         <Title>Contact Us</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px", color: "red" }} /> Pawtucket RI
+          <Room style={{ marginRight: "10px", color: "#ef476f" }} /> Pawtucket
+          RI
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
