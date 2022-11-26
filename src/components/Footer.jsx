@@ -1,16 +1,10 @@
-import {
-  MailOutline,
-  Phone,
-  Room,
-} from "@material-ui/icons";
+import { MailOutline, Phone, Room } from "@material-ui/icons";
 import styled from "styled-components";
-
 
 const Container = styled.div`
   display: flex;
   background-color: #04136bf1;
   color: white;
-  
 `;
 
 const Left = styled.div`
@@ -26,12 +20,9 @@ const Desc = styled.p`
   margin: 20px 0px;
 `;
 
-
-
 const Center = styled.div`
   flex: 1;
   padding: 20px;
- 
 `;
 
 const Title = styled.h3`
@@ -54,7 +45,6 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
- 
 `;
 
 const ContactItem = styled.div`
@@ -64,21 +54,21 @@ const ContactItem = styled.div`
 `;
 
 const FooterCopyRight = styled.footer`
-text-decoration: none;
-outline: none;
-color: white;
-margin-top: 3rem;
-font-size:15px;
-justify-content: center;
-&:hover {
-    color: #E38B06;
-}
+  text-decoration: none;
+  outline: none;
+  color: white;
+  margin-top: 3rem;
+  font-size: 15px;
+  justify-content: center;
+  &:hover {
+    color: #e38b06;
+  }
 `;
 
 const DesignBy = styled.p`
-font-size: 10px;
-color:grey;
-`
+  font-size: 10px;
+  color: grey;
+`;
 
 const Footer = () => {
   return (
@@ -88,41 +78,39 @@ const Footer = () => {
         <Desc>
           Blah blah blah blah blah blah blah blah blah blah blah, Thank you
         </Desc>
-       
       </Left>
       <Center>
         <Title>Mail Us</Title>
         <List>
-          <ListItem>17 Gloria Street
+          <ListItem>
             <br />
-            pawtucket RI 
+            pawtucket RI
             <br />
-            02861 
+            02861
             <br />
             USA
           </ListItem>
-         
-          
         </List>
-        <FooterCopyRight> © WBFoundation All Rights Reserved. CopyRight 2022.</FooterCopyRight>
+        <FooterCopyRight>
+          {" "}
+          © WBFoundation All Rights Reserved. CopyRight 2022.
+        </FooterCopyRight>
       </Center>
       <Right>
         <Title>Contact Us</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px", color:'red'}}/> Pawtucket RI
+          <Room style={{ marginRight: "10px", color: "red" }} /> Pawtucket RI
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@wbFoundation.bleh
+          <MailOutline style={{ marginRight: "10px" }} />{" "}
+          contact@wbFoundation.bleh
         </ContactItem>
 
         <DesignBy>Website Design by Edgar</DesignBy>
-
       </Right>
-
-
     </Container>
   );
 };
